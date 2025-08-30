@@ -92,7 +92,8 @@ select {
     
     font-weight: 400;
     font-size: 16px;  
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    padding: 0 20px;
 }
 
 .label {
@@ -132,7 +133,7 @@ select {
 
 table {
     /* Стили для таблицы */
-   
+    font-size: 16px; /* изменился размер шрифта*/
     border-collapse: collapse;
     border: 1px solid #95a1bb;
     width: 300px;
@@ -141,7 +142,8 @@ table {
 
 th, td {
     /* Стили для ячеек таблицы */
-    padding: 11px 0 11px 15px; 
+    /* padding: 11px 0 11px 15px;  */
+    padding: 12px 15px;
 }
 
 footer {
